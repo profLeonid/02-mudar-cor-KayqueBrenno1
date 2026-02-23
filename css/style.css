@@ -1,0 +1,88 @@
+:root {
+    --color-bg: lightblue;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--color-bg);
+    background-size: cover; /* Faz a imagem de fundo ocupar todo o espaço do elemento, sem distorcer, cortando o excesso se necessário */
+    background-position: center; /* Centraliza a imagem de fundo tanto na horizontal quanto na vertical */
+    background-repeat: no-repeat; /* Impede que a imagem se repita (evita o efeito de mosaico) */
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+input[type="text"] {
+    background-color: #fafafa;
+    border: rgb(40, 38, 38) solid;
+    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao-verde {
+    background-color: lightgreen;
+    color: green;
+    border-color: darkgreen;
+}
+
+#botao-vermelho {
+    background-color: pink;
+    color: red;
+    border-color: darkred;
+}
+
+#botao-cor-aleatoria {
+    color: white;
+    border: 2px solid black; /* Cria uma borda preta de 2 pixels ao redor do botão */
+    animation: rgb 5s infinite linear; /* Aplica a animação chamada "rgb"
+       - dura 5 segundos
+       - repete infinitamente
+       - muda as cores de forma linear (sem aceleração) */
+}
+
+/* Define a animação chamada "rgb" */
+@keyframes rgb {
+
+    
+    0% { /* No início da animação (0%) */
+        
+        background-color: red; /* O fundo começa na cor vermelha */
+    }
+
+    
+    33% { /* Com 33% do tempo da animação */
+        
+        background-color: green; /* O fundo muda para verde */
+    }
+
+    
+    66% { /* Com 66% do tempo da animação */
+        
+        background-color: blue; /* O fundo muda para azul */
+    }
+
+    
+    100% { /* No final da animação (100%) */
+        
+        background-color: red; /* Volta para vermelho, fechando o ciclo */ 
+    }
+}
+
+

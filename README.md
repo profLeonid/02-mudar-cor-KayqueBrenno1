@@ -1,1 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6BceDZMs)
+# trocar-cor
+
+### Atividade Realizada no Senai Jandira
+Atividade usando JavaScript. Nesta atividade o usuário pode trocar a cor de fundo com base na cor que digitar em inglês.
+
+Também foi dado como desafio aceitar a validação de quatro cores em português:
+- Marrom;
+- Lilás;
+- Rosa-choque;
+- Azul.
+
+Uma imagem do personagem Goku (Dragon Ball) de decoração adicionada. Quando escrito "goku" na caixa de texto, o fundo muda para uma imagem.
+
+Botão de cor aleatória adicionado, junto com uma estilização de rgb trocando de cor infinitamente.
